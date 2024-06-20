@@ -14,6 +14,9 @@ It lists them and proceeds to execute each asking for prompt:
  - q = cancel
 
 at the end it shows a list of failed `git pull` calls.
+<p align="center">
+  <img src="https://github.com/vhanla/gitpulldir/assets/1015823/70c7c089-6f16-4894-b4ea-9b4e4ad3ece0" width="50%"/>
+</p>
 
 ## DISCLAIMER
 
