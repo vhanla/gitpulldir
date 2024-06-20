@@ -7,10 +7,11 @@
 This is just a simple cli tool for Windows to do a `git pull` in each subdirectoy of the current directory which qualifies as a git repository, but for now just checks if it has a `.git` directory inside.
 
 It lists them and proceeds to execute each asking for prompt:
-y = yes
-n = bypass, continues to the next in queue
-a = all of them, bypass prompts
-q = cancel
+
+ - y = yes, git pull it
+ - n = bypass, continues to the next in queue
+ - a = all of them, bypass prompts
+ - q = cancel
 
 at the end it shows a list of failed `git pull` calls.
 
